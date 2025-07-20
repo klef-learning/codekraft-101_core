@@ -43,6 +43,8 @@
 				buildPhase = ''
 					export TYPST_FONT_PATHS="${ipaexfont}":"${dejavu}":"${ibm-plex}":"${klee}/fonts/ttf":"${zen-kurenaido}/fonts/ttf"
 					typst compile ./typst/main.typ output.pdf
+				'';
+				installPhase = ''
 					mkdir -p $out
 					cp output.pdf $out/codekraft-101_core.pdf
 				'';
