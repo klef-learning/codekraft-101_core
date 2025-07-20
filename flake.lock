@@ -1,0 +1,137 @@
+{
+  "nodes": {
+    "dejavu": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1469873331,
+        "narHash": "sha256-eUV9CThmZLXMosUjvwvMwnWtZpgwFGZZws848kcOgE4=",
+        "type": "tarball",
+        "url": "https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "ibm-plex": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652385348,
+        "narHash": "sha256-WZvPcWlm7BzHr9/ZmOBFOGzLS3umUHRmOPsYMRs4zKs=",
+        "type": "tarball",
+        "url": "https://github.com/IBM/plex/releases/download/v6.0.1/TrueType.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/IBM/plex/releases/download/v6.0.1/TrueType.zip"
+      }
+    },
+    "ipaexfont": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1556255136,
+        "narHash": "sha256-/87qJIb+v4qrtDy+ApfXxh59reOk+6RhGqFN98mc+8Q=",
+        "type": "tarball",
+        "url": "https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip"
+      }
+    },
+    "klee": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624424389,
+        "narHash": "sha256-zjiV6IeY/IdoqhrCJEze6sWo1+ZiDHlUNOm+PRhesaU=",
+        "owner": "fontworks-fonts",
+        "repo": "klee",
+        "rev": "8b0532731b63ad8a445ca341d8d7d941079b83ab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fontworks-fonts",
+        "repo": "klee",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1752480373,
+        "narHash": "sha256-JHQbm+OcGp32wAsXTE/FLYGNpb+4GLi5oTvCxwSoBOA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "62e0f05ede1da0d54515d4ea8ce9c733f12d9f08",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dejavu": "dejavu",
+        "flake-utils": "flake-utils",
+        "ibm-plex": "ibm-plex",
+        "ipaexfont": "ipaexfont",
+        "klee": "klee",
+        "nixpkgs": "nixpkgs",
+        "zen-kurenaido": "zen-kurenaido"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "zen-kurenaido": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1722608399,
+        "narHash": "sha256-1XHzIAncPyjuUW+HENDYYJKr6Liudq0UYuHS9dTvFuA=",
+        "owner": "googlefonts",
+        "repo": "zen-kurenaido",
+        "rev": "cd751ced55d4ebb1fb2fbd90602eb9351dd03fd6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "googlefonts",
+        "repo": "zen-kurenaido",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
