@@ -18,7 +18,7 @@ jobs:
       - run: nix flake check
       - run: |
           git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.email "action@github.com"
           git add .
           git commit -m "[GitHub Actions] Build Typst File"
           git push
